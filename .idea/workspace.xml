@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="" />
+    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/YServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/YServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration name="ActiveMQTest.QueueProducerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="activemq-producer" />
       <extension name="coverage">
@@ -162,8 +166,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="JUnit.ActiveMQTest.TopicProducerTest" />
         <item itemvalue="JUnit.ActiveMQTest.QueueProducerTest" />
       </list>
@@ -185,7 +189,7 @@
       <workItem from="1692023432017" duration="1505000" />
       <workItem from="1692025896439" duration="712000" />
       <workItem from="1692061685740" duration="26467000" />
-      <workItem from="1692146227787" duration="14358000" />
+      <workItem from="1692146227787" duration="15029000" />
     </task>
     <task id="LOCAL-00001" summary="generic beta">
       <created>1692165377807</created>
@@ -194,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692165377807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="generic beta total">
+      <created>1692165525176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692165525176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +224,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generic beta" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic beta" />
+    <MESSAGE value="generic beta total" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic beta total" />
   </component>
 </project>

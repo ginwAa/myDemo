@@ -19,6 +19,7 @@ public class ProviderApplication {
         service.setInterface("com.demo.service.YService");
         service.setVersion("1.0");
         service.setRef(YService);
+
         service.export();
     }
 }
