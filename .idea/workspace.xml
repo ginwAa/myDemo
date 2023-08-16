@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/ZServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/demo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/demo/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/demo/controller/XController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/com/demo/controller/XController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/demo/controller/XController.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/target/classes/com/demo/controller/XController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/YServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/YServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/YServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/YServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration name="ActiveMQTest.QueueProducerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="activemq-producer" />
       <extension name="coverage">
@@ -166,8 +175,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="JUnit.ActiveMQTest.TopicProducerTest" />
         <item itemvalue="JUnit.ActiveMQTest.QueueProducerTest" />
       </list>
@@ -189,7 +198,7 @@
       <workItem from="1692023432017" duration="1505000" />
       <workItem from="1692025896439" duration="712000" />
       <workItem from="1692061685740" duration="26467000" />
-      <workItem from="1692146227787" duration="15029000" />
+      <workItem from="1692146227787" duration="20718000" />
     </task>
     <task id="LOCAL-00001" summary="generic beta">
       <created>1692165377807</created>
@@ -205,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692165525176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="generic beta ver3">
+      <created>1692166141406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692166141406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generic beta" />
     <MESSAGE value="generic beta total" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic beta total" />
+    <MESSAGE value="generic beta ver3" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic beta ver3" />
   </component>
 </project>
