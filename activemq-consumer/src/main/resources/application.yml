@@ -1,2 +1,10 @@
 server:
   port: 8084
+
+spring:
+  application:
+    name: activemq-producer
+  activemq:
+    broker-url: tcp://172.27.23.85:61616
+    user: admin
+    password: admin

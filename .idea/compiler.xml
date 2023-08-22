@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="activemq-consumer" />
+        <module name="cloud-eureka" />
         <module name="common" />
         <module name="dubbo-provider" />
         <module name="activemq-producer" />
@@ -15,13 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="activemq-consumer" target="1.8" />
-      <module name="activemq-producer" target="1.8" />
-      <module name="common" target="1.8" />
-      <module name="demo" target="1.8" />
-      <module name="dubbo-consumer" target="1.8" />
       <module name="dubbo-consumer2" target="1.8" />
-      <module name="dubbo-provider" target="1.8" />
       <module name="pojo" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
@@ -30,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activemq-consumer" options="-parameters" />
       <module name="activemq-producer" options="-parameters" />
+      <module name="cloud-eureka" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-consumer2" options="-parameters" />

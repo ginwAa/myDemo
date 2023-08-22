@@ -8,3 +8,15 @@ spring:
     broker-url: tcp://172.27.23.85:61616
     user: admin
     password: admin
+    pool:
+      enabled: true
+      max-sessions-per-connection: 50
+      max-connections: 5
+      idle-timeout: 30  # 空闲失效时间单位秒
+      block-if-full-timeout: -1
+      block-if-full: true
+  jms:
+    cache:
+      enabled: true
+      session-cache-size: 10
+

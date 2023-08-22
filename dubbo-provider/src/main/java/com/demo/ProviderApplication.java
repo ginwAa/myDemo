@@ -1,11 +1,15 @@
 package com.demo;
 
-import com.demo.service.impl.YServiceImpl;
-import org.apache.dubbo.config.ServiceConfig;
+import com.demo.service.impl.MyGenericServiceImpl;
+import org.apache.dubbo.config.*;
+import org.apache.dubbo.config.spring.context.annotation.DubboComponentScan;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.apache.dubbo.rpc.service.GenericService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 @EnableDubbo
@@ -13,14 +17,31 @@ public class ProviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProviderApplication.class, args);
 
-        GenericService YService = new YServiceImpl();
+
+        RegistryConfig registryConfig = new RegistryConfig();
+        registryConfig.setAddress("zookeeper://172.27.23.85:2181");
+
+        ProtocolConfig protocol = new ProtocolConfig();
+        protocol.setName("dubbo");
+        protocol.setPort(12345);
+        protocol.setThreads(200);
+
+        MethodConfig methodConfig = new MethodConfig();
+        methodConfig.setName("getY");
+
+        ArgumentConfig argumentConfig = new ArgumentConfig();
+        argumentConfig.setType(String.class.getTypeName());
+        methodConfig.addArgument(argumentConfig);
 
         ServiceConfig<GenericService> service = new ServiceConfig<GenericService>();
-        service.setInterface("com.demo.service.YService");
+        service.setInterface("com.demo.service.MyGenericService");
         service.setVersion("1.0");
-        service.setRef(YService);
+        service.setRef(new MyGenericServiceImpl());
+        service.setGroup("testGroup");
+        service.addMethod(methodConfig);
 
-
+        service.setProtocol(protocol);
+        service.setRegistry(registryConfig);
         service.export();
     }
 }
