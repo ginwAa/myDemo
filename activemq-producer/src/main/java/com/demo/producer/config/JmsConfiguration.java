@@ -54,6 +54,7 @@ public class JmsConfiguration {
         return template;
     }
 
+    // TODO prefetch
     @Bean(name = "syncPoolConnectionFactory")
     public JmsPoolConnectionFactory syncPoolConnectionFactory(JmsPoolConnectionFactoryFactory poolConnectionFactoryFactory) {
         ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://172.27.23.85:61616");

@@ -1,0 +1,11 @@
+server:
+  port: 8085
+eureka:
+  instance:
+    appname: provider-service
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:10086/eureka/,http://admin:admin@localhost:10087/eureka
+spring:
+  application:
+    name: provider-service

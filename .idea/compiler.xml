@@ -7,16 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="activemq-consumer" />
-        <module name="cloud-eureka" />
         <module name="common" />
         <module name="dubbo-provider" />
         <module name="activemq-producer" />
+        <module name="cloud-consumer" />
+        <module name="activemq-consumer" />
+        <module name="cloud-provider" />
+        <module name="eureka-server" />
         <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo-consumer2" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
+      <module name="eureka-service2" target="1.8" />
       <module name="pojo" target="1.8" />
       <module name="test" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,11 +29,15 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activemq-consumer" options="-parameters" />
       <module name="activemq-producer" options="-parameters" />
-      <module name="cloud-eureka" options="-parameters" />
+      <module name="cloud-consumer" options="-parameters" />
+      <module name="cloud-provider" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-consumer2" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server2" options="-parameters" />
+      <module name="eureka-service2" options="-parameters" />
       <module name="pojo" options="-parameters" />
     </option>
   </component>
