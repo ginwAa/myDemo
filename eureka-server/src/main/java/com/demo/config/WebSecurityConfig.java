@@ -8,18 +8,16 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.web.SecurityFilterChain;
 
-import static org.springframework.security.config.Customizer.withDefaults;
-
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
-
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests((authz) -> authz
                         .anyRequest().authenticated()
                 )
-                .formLogin().and().httpBasic();
+                .formLogin().and()
+                .httpBasic();
         http.csrf().ignoringAntMatchers("/eureka/**");
         return http.build();
     }

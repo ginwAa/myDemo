@@ -12,6 +12,7 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.jms.connection.CachingConnectionFactory;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessagePostProcessor;
@@ -34,7 +35,7 @@ public class ActiveMQProducerTest {
 
 //    @Autowired
 //    private JmsMessagingTemplate jmsMessagingTemplate;
-
+    CachingConnectionFactory
     @Test
     public void QueueProducerTest() {
         for (int i = 0; i < 10; ++i) {
