@@ -35,7 +35,6 @@ public class ActiveMQProducerTest {
 
 //    @Autowired
 //    private JmsMessagingTemplate jmsMessagingTemplate;
-    CachingConnectionFactory
     @Test
     public void QueueProducerTest() {
         for (int i = 0; i < 10; ++i) {
