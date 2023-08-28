@@ -29,16 +29,16 @@ public class XController {
     /**
      * 泛化服务
      */
-//    @DubboReference(interfaceName = "com.demo.service.MyGenericService", version = "1.0")
-//    private GenericService myGenericService;
+    @DubboReference(interfaceName = "com.demo.service.MyGenericService", version = "1.0", group = "testGroup")
+    private GenericService myGenericService;
 
     /**
      * 测试泛化调用修改功能
      * @param name
      * @return
      */
-    @GetMapping("/Y/{name}")
-    public Result<User> invokeUser(@PathVariable String name) {
+    @GetMapping("/edit/{name}")
+    public Result<User> edit(@PathVariable String name) {
 //        ReferenceConfig<GenericService> referenceConfig = new ReferenceConfig<>();
 //        referenceConfig.setInterface("com.demo.service.UserService");
 //        referenceConfig.setGeneric(true);
@@ -62,13 +62,13 @@ public class XController {
      * 测试泛化调用读取功能
      * @return
      */
-    @GetMapping("/Y")
-    public Result<String> getY() {
-        ReferenceConfig<GenericService> referenceConfig = new ReferenceConfig<GenericService>();
-        referenceConfig.setInterface("com.demo.service.MyGenericService");
-        referenceConfig.setVersion("1.0");
-        referenceConfig.setGeneric(true);
-        GenericService myGenericService = referenceConfig.get();
+    @GetMapping("/get")
+    public Result<String> get() {
+//        ReferenceConfig<GenericService> referenceConfig = new ReferenceConfig<GenericService>();
+//        referenceConfig.setInterface("com.demo.service.MyGenericService");
+//        referenceConfig.setVersion("1.0");
+//        referenceConfig.setGeneric(true);
+//        GenericService myGenericService = referenceConfig.get();
 //        String name = (String) userService.$invoke("getUserName", new String[]{}, new Object[]{});
         String name = userService.getUserName();
         Object result = myGenericService.$invoke("getY", new String[]{name.getClass().getTypeName()}, new Object[] {name});
