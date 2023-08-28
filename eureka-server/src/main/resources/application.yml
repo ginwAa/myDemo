@@ -19,4 +19,5 @@ eureka:
     service-url:
       defaultZone: http://admin:admin@eureka10086.com:10086/eureka/,http://admin:admin@eureka10087.com:10087/eureka
   server:
+    # 最低接受心跳比
     renewal-percent-threshold: 0.49

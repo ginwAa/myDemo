@@ -2,10 +2,12 @@ dubbo:
   application:
     name: consumer
     qos-port: 23172
-
+  #    enable-empty-protection: false
 
   registry:
     address: zookeeper://172.27.23.85:2181
-
+  #    enable-empty-protection: false
+  module:
+    check-reference-timeout: 5000
 server:
   port: 8082

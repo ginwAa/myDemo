@@ -10,8 +10,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.String;
 
-
-
 @Slf4j
 
 public class MyGenericServiceImpl implements GenericService {

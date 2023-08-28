@@ -1,10 +1,8 @@
 package com.demo.producer.config;
 
-import com.sun.jndi.ldap.pool.PooledConnectionFactory;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.ActiveMQPrefetchPolicy;
 import org.messaginghub.pooled.jms.JmsPoolConnectionFactory;
-import org.messaginghub.pooled.jms.pool.PooledXAConnection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -50,24 +48,20 @@ public class JmsConfiguration {
         return template;
     }
 
-
     @Bean(name = "syncJmsTemplate")
     public JmsTemplate syncJmsTemplate(@Qualifier("syncPoolConnectionFactory") JmsPoolConnectionFactory poolConnectionFactory) {
         JmsTemplate template = new JmsTemplate(poolConnectionFactory);
         return template;
     }
 
-    // TODO CachingConnectionFactory
     @Bean(name = "syncPoolConnectionFactory")
     public JmsPoolConnectionFactory syncPoolConnectionFactory(JmsPoolConnectionFactoryFactory poolConnectionFactoryFactory) {
         ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://172.27.23.85:61616");
         connectionFactory.setUseAsyncSend(false);
         connectionFactory.setAlwaysSyncSend(false);
-
         ActiveMQPrefetchPolicy policy = new ActiveMQPrefetchPolicy();
         policy.setAll(1000);
         connectionFactory.setPrefetchPolicy(policy);
-
         return poolConnectionFactoryFactory.createPooledConnectionFactory(connectionFactory);
     }
 
