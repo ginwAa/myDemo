@@ -47,7 +47,5 @@ public class ProviderApplication {
 //        service.setRegistry(registryConfig);
         service.export();
 
-        Curator5ZookeeperClient zookeeperClient = new Curator5ZookeeperClient(new URL("172.27.23.85:2181"));
-
     }
 }
