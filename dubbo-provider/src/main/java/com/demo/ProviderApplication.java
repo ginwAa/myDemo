@@ -1,10 +1,13 @@
 package com.demo;
 
 import com.demo.service.impl.MyGenericServiceImpl;
+import org.apache.dubbo.common.URL;
 import org.apache.dubbo.config.*;
 import org.apache.dubbo.config.spring.context.annotation.DubboComponentScan;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
+import org.apache.dubbo.remoting.zookeeper.curator5.Curator5ZookeeperClient;
 import org.apache.dubbo.rpc.service.GenericService;
+import org.apache.zookeeper.ZooKeeper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -18,13 +21,13 @@ public class ProviderApplication {
         SpringApplication.run(ProviderApplication.class, args);
 
 
-        RegistryConfig registryConfig = new RegistryConfig();
-        registryConfig.setAddress("zookeeper://172.27.23.85:2181");
-
-        ProtocolConfig protocol = new ProtocolConfig();
-        protocol.setName("dubbo");
-        protocol.setPort(12345);
-        protocol.setThreads(200);
+//        RegistryConfig registryConfig = new RegistryConfig();
+//        registryConfig.setAddress("zookeeper://172.27.23.85:2181");
+//
+//        ProtocolConfig protocol = new ProtocolConfig();
+//        protocol.setName("dubbo");
+//        protocol.setPort(12345);
+//        protocol.setThreads(200);
 
         MethodConfig methodConfig = new MethodConfig();
         methodConfig.setName("getY");
@@ -40,8 +43,11 @@ public class ProviderApplication {
         service.setGroup("testGroup");
         service.addMethod(methodConfig);
 
-        service.setProtocol(protocol);
-        service.setRegistry(registryConfig);
+//        service.setProtocol(protocol);
+//        service.setRegistry(registryConfig);
         service.export();
+
+        Curator5ZookeeperClient zookeeperClient = new Curator5ZookeeperClient(new URL("172.27.23.85:2181"));
+
     }
 }

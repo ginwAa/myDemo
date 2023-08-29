@@ -84,4 +84,6 @@ public class JmsConfiguration {
         return new JmsPoolConnectionFactoryFactory(properties);
     }
 
+
+    // TODO CachingConnectionFactory
 }

@@ -6,6 +6,8 @@ dubbo:
 
   registry:
     address: zookeeper://172.27.23.85:2181
+    username: admin
+    password: admin
   #    enable-empty-protection: false
   module:
     check-reference-timeout: 5000

@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="dubbo fix bugs">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq-producer/src/main/java/com/demo/producer/config/JmsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-producer/src/main/java/com/demo/producer/config/JmsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activemq-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/MyGenericServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/MyGenericServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +32,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -51,16 +56,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2TyJ1Zsovjz8L3RMzna4sFlZJHz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -100,12 +101,12 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;service.view.auto.scroll.from.source&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c444baa21760add795579b349d47ba66&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0d8cb5b2ff1c09e6007f4cbe2215bdc4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -139,23 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServer">
-    <configuration name="ActiveMQProducerTest.AsyncProducerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="activemq-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.producer" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.producer.ActiveMQProducerTest" />
-      <option name="METHOD_NAME" value="AsyncProducerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration name="CloudConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.CloudConsumerApp" />
@@ -182,9 +167,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.EurekaServer" />
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ConsumerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.demo.*" />
@@ -209,20 +194,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ActiveMQProducerTest.AsyncProducerTest" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.CloudProviderApp" />
       <item itemvalue="Spring Boot.CloudConsumerApp" />
-      <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.EurekaServer10087" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaServer10087" />
-        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.CloudConsumerApp" />
         <item itemvalue="Spring Boot.CloudProviderApp" />
-        <item itemvalue="JUnit.ActiveMQProducerTest.AsyncProducerTest" />
+        <item itemvalue="Spring Boot.EurekaServer10087" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +261,13 @@
       <workItem from="1692751178371" duration="1276000" />
       <workItem from="1692752766265" duration="23480000" />
       <workItem from="1692838896346" duration="3566000" />
+      <workItem from="1692924770310" duration="14863000" />
+      <workItem from="1692957333107" duration="257000" />
+      <workItem from="1692957718889" duration="12000" />
+      <workItem from="1693183098000" duration="20292000" />
+      <workItem from="1693271737172" duration="2403000" />
+      <workItem from="1693275640190" duration="2252000" />
+      <workItem from="1693278159129" duration="13164000" />
     </task>
     <task id="LOCAL-00001" summary="generic beta">
       <created>1692165377807</created>
@@ -308,7 +313,55 @@
       <option name="project" value="LOCAL" />
       <updated>1692843471174</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="gitignore update">
+      <option name="closed" value="true" />
+      <created>1692843544165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692843544165</updated>
+    </task>
+    <task id="LOCAL-00008" summary="prefetch done">
+      <option name="closed" value="true" />
+      <created>1692947987277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692947987277</updated>
+    </task>
+    <task id="LOCAL-00009" summary="prefetch done">
+      <option name="closed" value="true" />
+      <created>1692948086994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948086994</updated>
+    </task>
+    <task id="LOCAL-00010" summary="prefetch done">
+      <option name="closed" value="true" />
+      <created>1692948121347</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948121347</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dubbo fix bugs">
+      <option name="closed" value="true" />
+      <created>1693213652973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693213652973</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dubbo confirm generic">
+      <option name="closed" value="true" />
+      <created>1693218784588</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693218784588</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +385,13 @@
     <MESSAGE value="generic beta ver3" />
     <MESSAGE value="activemq finished" />
     <MESSAGE value="generic with entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic with entity" />
+    <MESSAGE value="gitignore update" />
+    <MESSAGE value="prefetch done" />
+    <MESSAGE value="dubbo fix bugs" />
+    <MESSAGE value="dubbo confirm generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo confirm generic" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -367,5 +426,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$ProviderApplication.ic" NAME="ProviderApplication Coverage Results" MODIFIED="1693204870435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -11,7 +11,6 @@ import java.lang.reflect.Method;
 import java.lang.String;
 
 @Slf4j
-
 public class MyGenericServiceImpl implements GenericService {
     @Override
     public Object $invoke(String method, String[] parameterTypes, Object[] args) {

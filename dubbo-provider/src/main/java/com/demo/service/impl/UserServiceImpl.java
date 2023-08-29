@@ -8,7 +8,6 @@ import org.apache.dubbo.rpc.service.GenericService;
 import org.springframework.stereotype.Service;
 
 @DubboService(group = "testGroup")
-@Service
 public class UserServiceImpl implements UserService {
     public String getUserName() {
         return "23177777";
