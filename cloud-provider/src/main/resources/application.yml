@@ -5,7 +5,9 @@ eureka:
     appname: provider-service
   client:
     service-url:
-      defaultZone: http://admin:admin@localhost:10086/eureka/,http://admin:admin@localhost:10087/eureka
+      #      defaultZone: http://admin:admin@localhost:10086/eureka/,http://admin:admin@localhost:10087/eureka
+      defaultZone: http://admin:admin@localhost:10086/eureka/
+    registry-fetch-interval-seconds: 5000
 spring:
   application:
     name: provider-service

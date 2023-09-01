@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="dubbo fix bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="db2bec51-bc65-4c82-84ae-72349e0cd9b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/config/SentinelConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/properties/SentinelProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer/src/test/java/com/demo/SentinelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activemq-producer/src/main/java/com/demo/producer/config/JmsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-producer/src/main/java/com/demo/producer/config/JmsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activemq-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/activemq-producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/CloudConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/CloudConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/demo/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/MyGenericServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/MyGenericServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/java/com/demo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/ProviderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provider/target/classes/com/demo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +59,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Repositories\Maven" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -95,7 +106,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeFields/Code_Java/demo/cloud-consumer/src/main/java/com/demo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repositories/Maven&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -126,6 +137,9 @@
       <recent name="D:\CodeFields\Code_Java\demo\activemq-producer" />
       <recent name="D:\CodeFields\Code_Java\demo\activemq-consumer" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.demo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.demo" />
       <recent name="com.demo.service.impl" />
@@ -140,7 +154,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.CloudConsumerApp">
+    <configuration name="SentinelTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.SentinelTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sentinelTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.sentinelTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloudConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.CloudConsumerApp" />
@@ -180,6 +226,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.EurekaServer" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=single" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer10086" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.EurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServer10087" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.EurekaServer" />
@@ -194,33 +267,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="dubbo-provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.ProviderApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ProviderApplication" />
-      <item itemvalue="Spring Boot.CloudProviderApp" />
+      <item itemvalue="JUnit.SentinelTest.testMain" />
+      <item itemvalue="JUnit.sentinelTest.testMain" />
       <item itemvalue="Spring Boot.CloudConsumerApp" />
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.EurekaServer10086" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.CloudProviderApp" />
       <item itemvalue="Spring Boot.EurekaServer10087" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplication" />
-        <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.CloudConsumerApp" />
+        <item itemvalue="JUnit.SentinelTest.testMain" />
         <item itemvalue="Spring Boot.CloudProviderApp" />
+        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.EurekaServer10086" />
         <item itemvalue="Spring Boot.EurekaServer10087" />
+        <item itemvalue="JUnit.sentinelTest.testMain" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +334,11 @@
       <workItem from="1693271737172" duration="2403000" />
       <workItem from="1693275640190" duration="2252000" />
       <workItem from="1693278159129" duration="13164000" />
+      <workItem from="1693356786218" duration="1047000" />
+      <workItem from="1693359917546" duration="24952000" />
+      <workItem from="1693444936448" duration="16871000" />
+      <workItem from="1693477548550" duration="2588000" />
+      <workItem from="1693529137385" duration="7359000" />
     </task>
     <task id="LOCAL-00001" summary="generic beta">
       <created>1692165377807</created>
@@ -361,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693218784588</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dubbo fix bugs">
+      <option name="closed" value="true" />
+      <created>1693318600177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693318600177</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,9 +466,9 @@
     <MESSAGE value="generic with entity" />
     <MESSAGE value="gitignore update" />
     <MESSAGE value="prefetch done" />
-    <MESSAGE value="dubbo fix bugs" />
     <MESSAGE value="dubbo confirm generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo confirm generic" />
+    <MESSAGE value="dubbo fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo fix bugs" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

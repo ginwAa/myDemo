@@ -7,14 +7,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/dubbo-consumer2/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server2/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-service2/pom.xml" />
-        <option value="$PROJECT_DIR$/pojo/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

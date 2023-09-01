@@ -5,7 +5,20 @@ eureka:
     appname: consumer-service
   client:
     service-url:
-      defaultZone: http://admin:admin@eureka10086.com:10086/eureka/,http://admin:admin@eureka10087.com:10087/eureka
+      #      defaultZone: http://admin:admin@eureka10086.com:10086/eureka/,http://admin:admin@eureka10087.com:10087/eureka
+      defaultZone: http://admin:admin@eureka10086.com:10086/eureka/
+    registry-fetch-interval-seconds: 3
 spring:
   application:
     name: consumer-service
+  cloud:
+    sentinel:
+      log:
+        dir: D:\logs\sentinel\ # 日志存储位置
+      transport:
+        dashboard: 172.27.23.85:8199
+        heartbeatIntervalMs: 5000
+      eager: true
+
+
+

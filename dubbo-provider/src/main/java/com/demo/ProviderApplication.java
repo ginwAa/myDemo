@@ -20,10 +20,11 @@ public class ProviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProviderApplication.class, args);
 
-
+        // TODO test username & password
 //        RegistryConfig registryConfig = new RegistryConfig();
 //        registryConfig.setAddress("zookeeper://172.27.23.85:2181");
-//
+//        registryConfig.setUsername("admin");
+//        registryConfig.setPassword("admin");
 //        ProtocolConfig protocol = new ProtocolConfig();
 //        protocol.setName("dubbo");
 //        protocol.setPort(12345);

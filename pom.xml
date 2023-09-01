@@ -33,9 +33,10 @@
         <fastjson2>2.0.38</fastjson2>
         <druid>1.2.16</druid>
         <zookeeper>3.8.2</zookeeper>
-        <dubbo>3.2.4</dubbo>
+        <dubbo>3.2.5</dubbo>
         <activemq>5.16.6</activemq>
         <cloud>3.1.7</cloud>
+        <sentinel>2021.0.4.0</sentinel>
     </properties>
 
     <dependencyManagement>
@@ -117,6 +118,12 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
                 <version>${cloud}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+                <version>${sentinel}</version>
             </dependency>
 
         </dependencies>
