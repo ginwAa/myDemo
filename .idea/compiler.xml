@@ -12,6 +12,7 @@
         <module name="activemq-producer" />
         <module name="cloud-consumer" />
         <module name="activemq-consumer" />
+        <module name="gateway-server" />
         <module name="cloud-provider" />
         <module name="eureka-server" />
         <module name="dubbo-consumer" />
@@ -38,6 +39,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server2" options="-parameters" />
       <module name="eureka-service2" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="pojo" options="-parameters" />
     </option>
   </component>

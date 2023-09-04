@@ -22,6 +22,7 @@
         <module>eureka-server</module>
         <module>cloud-provider</module>
         <module>cloud-consumer</module>
+        <module>gateway-server</module>
     </modules>
 
     <properties>
@@ -37,6 +38,7 @@
         <activemq>5.16.6</activemq>
         <cloud>3.1.7</cloud>
         <sentinel>2021.0.4.0</sentinel>
+        <gateway>3.1.8</gateway>
     </properties>
 
     <dependencyManagement>
@@ -124,6 +126,18 @@
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
                 <version>${sentinel}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-sentinel-gateway</artifactId>
+                <version>${sentinel}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway</artifactId>
+                <version>${gateway}</version>
             </dependency>
 
         </dependencies>

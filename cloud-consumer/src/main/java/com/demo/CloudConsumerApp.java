@@ -1,12 +1,4 @@
 package com.demo;
-
-import com.alibaba.cloud.sentinel.annotation.SentinelRestTemplate;
-import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.alibaba.csp.sentinel.slots.block.RuleConstant;
-import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
-import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
-import com.demo.config.SentinelConfiguration;
 import com.demo.controller.ConsumerController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,13 +19,6 @@ import java.time.LocalDateTime;
 public class CloudConsumerApp {
     public static void main(String[] args) {
         SpringApplication.run(CloudConsumerApp.class, args);
-
-        SentinelConfiguration.initFlowRules();
-        SentinelConfiguration.initSystemRules();
-//        SentinelConfiguration.initErrorCountRules();
-
-//        SentinelConfiguration.initSlowRequestRatioRules();
-//        SentinelConfiguration.registerStateChangeObserver();
     }
 
     @Bean

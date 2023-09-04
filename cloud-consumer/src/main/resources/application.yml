@@ -11,14 +11,14 @@ eureka:
 spring:
   application:
     name: consumer-service
-  cloud:
-    sentinel:
-      log:
-        dir: D:\logs\sentinel\ # 日志存储位置
-      transport:
-        dashboard: 172.27.23.85:8199
-        heartbeatIntervalMs: 5000
-      eager: true
+#  cloud:
+#    sentinel:
+#      log:
+#        dir: D:\logs\sentinel\ # 日志存储位置
+#      transport:
+#        dashboard: 172.27.23.85:8199
+#        heartbeatIntervalMs: 5000
+#      eager: true
 
 
 

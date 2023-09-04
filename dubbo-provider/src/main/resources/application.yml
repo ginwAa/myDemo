@@ -5,15 +5,13 @@ dubbo:
   protocol:
     name: dubbo
     port: 28080
+  config-center:
+    address: zookeeper://172.27.23.85:2181
   registry:
     address: zookeeper://172.27.23.85:2181
-    username: admin
-    password: admin
   #    enable-empty-protection: false
   metadata-report:
     address: zookeeper://172.27.23.85:2181
-    username: admin
-    password: admin
 
 server:
   port: 8081
