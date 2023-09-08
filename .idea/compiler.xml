@@ -28,18 +28,18 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="activemq-consumer" options="-parameters" />
-      <module name="activemq-producer" options="-parameters" />
-      <module name="cloud-consumer" options="-parameters" />
-      <module name="cloud-provider" options="-parameters" />
-      <module name="common" options="-parameters" />
-      <module name="dubbo-consumer" options="-parameters" />
+      <module name="activemq-consumer" options="" />
+      <module name="activemq-producer" options="" />
+      <module name="cloud-consumer" options="" />
+      <module name="cloud-provider" options="" />
+      <module name="common" options="" />
+      <module name="dubbo-consumer" options="" />
       <module name="dubbo-consumer2" options="-parameters" />
-      <module name="dubbo-provider" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
+      <module name="dubbo-provider" options="" />
+      <module name="eureka-server" options="" />
       <module name="eureka-server2" options="-parameters" />
       <module name="eureka-service2" options="-parameters" />
-      <module name="gateway-server" options="-parameters" />
+      <module name="gateway-server" options="" />
       <module name="pojo" options="-parameters" />
     </option>
   </component>

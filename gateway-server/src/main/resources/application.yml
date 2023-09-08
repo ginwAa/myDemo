@@ -11,6 +11,7 @@ spring:
     name: gateway
   cloud:
     gateway:
+      enabled: true
       routes:
         - id: consume-service
           uri: lb://consumer-service
@@ -22,10 +23,20 @@ spring:
             - Path=/provider/**
             - After=2020-01-01T00:00:00.000+08:00[Asia/Shanghai]
             - Before=2030-01-01T00:00:00.000+08:00[Asia/Shanghai]
-    sentinel:
-      log:
-        dir: D:\logs\sentinel\ # 日志存储位置
-      transport:
-        dashboard: 172.27.23.85:8199
-        heartbeatIntervalMs: 5000
-      eager: true
+  main:
+    allow-bean-definition-overriding: true
+csp:
+  sentinel:
+    eager: true
+    log:
+      dir: D:\logs\sentinel\
+    transport:
+      dashboard: 172.27.23.85:8199
+      heartbeat-interval-ms: 3000
+apollo:
+  meta-server-address: http://172.27.23.85:8080
+  app-id: gateway
+  cache-dir: D:\Logs\apollo\cache\
+  env: dev
+  cluster: default
+  access-token: ff5ca79fef9b8052e416d580bd608bf60223c1c00bc977dac93699102767dd34

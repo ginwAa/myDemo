@@ -2,19 +2,26 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/activemq-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activemq-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/activemq-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activemq-producer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-consumer2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-service2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pojo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pojo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

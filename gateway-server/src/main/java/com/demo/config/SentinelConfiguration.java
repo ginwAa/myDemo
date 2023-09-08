@@ -1,5 +1,6 @@
 package com.demo.config;
 
+import com.alibaba.cloud.sentinel.SentinelProperties;
 import com.alibaba.csp.sentinel.annotation.aspectj.SentinelResourceAspect;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.authority.AuthorityRule;
@@ -14,11 +15,13 @@ import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import com.alibaba.csp.sentinel.slots.system.SystemRule;
 import com.alibaba.csp.sentinel.slots.system.SystemRuleManager;
 import com.alibaba.csp.sentinel.util.TimeUtil;
+import com.demo.properties.MySentinelProperties;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -142,8 +145,8 @@ public class SentinelConfiguration {
         AuthorityRuleManager.loadRules(Collections.singletonList(rule));
     }
 
-    @Bean
-    public SentinelResourceAspect sentinelResourceAspect() {
-        return new SentinelResourceAspect();
-    }
+//    @Bean
+//    public SentinelResourceAspect sentinelResourceAspect() {
+//        return new SentinelResourceAspect();
+//    }
 }
