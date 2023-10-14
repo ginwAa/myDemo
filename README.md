@@ -1,2 +1,2 @@
 # JUST MY JAVA SELF-LEARNING PROJECT
-# Looking for your suggestions
+# Looking forward to your suggestions
